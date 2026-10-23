@@ -1,0 +1,14 @@
+{
+  "name": "esp32-gmail-threshold-alerts",
+  "version": "1.0.0",
+  "description": "ESP32 DHT11 HTTP dashboard with LED control and Gmail temperature threshold alerts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.1"
+  }
+}
